@@ -1,0 +1,27 @@
+<html>
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+
+
+
+</head>
+<body>
+    <h1 class="btn btn-primary">Fashion Classifier!</h1>
+    <canvas id="canvas" width="280" height="280" style="position:absolute;top:100;left:100;border:8px solid;"></canvas>
+    <img id="canvasimg" style="position:absolute;top:10%;left:52%;width:280;height:280;display:none;">
+    <input type="button" class="btn btn-primary" value="classify" id="sb" size="48" style="position:absolute;top:400;left:100;">
+    <input type="button" class="btn btn-primary" value="clear" id="cb" size="23" style="position:absolute;top:400;left:180;">
+    <script src="fashion-data.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+
+
+
+</body>
+</html>
